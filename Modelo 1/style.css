@@ -1,0 +1,119 @@
+*{
+    margin:0; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color:black;
+}
+
+#seguramenu{
+    width: 95%;
+}
+#menu{
+    display: flex;
+    
+    margin: 0;    
+}
+
+#menu  li {
+    color:white;
+    list-style: none;
+    padding: 15px;
+    display: block;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+#menu li:first-child{
+    margin-right: auto;
+}
+
+#logo{
+    padding: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.central{
+    margin: auto;
+    text-align: center;
+}
+
+.central input{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.central h1{
+    padding-bottom: 20px;
+    
+}
+
+.box1{
+    background-color: #0ce9e2;
+    color: white;
+    display: flex;
+    height: 40vh;
+}
+
+.box2{
+    display: flex;
+    padding: 20px;
+    height: 33vh;
+    background-color: #e1f4f2;
+}
+
+.box3{
+    padding: 20px;
+    display: flex;
+    height: 33vh;
+    background-color:white;
+}
+
+.imgprojeto{
+    height: 25vh;
+    width: 45vw;
+    padding-left: 25px;
+}
+
+.contatos{
+    list-style: none;
+    text-decoration: none;
+    height: 15vh;
+    margin: auto;
+    display: block;
+    padding-top: 90px;
+}
+
+
+.contatos a{
+    text-decoration: none;
+    color:black;
+}
+
+.imagen{
+    width: 15px;
+    height: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
+
+/* como redimencionar o tamanho de uma imagen, so criar uma classe ou id pra ela, e plicar os tamnhos que vc queira*/
+
+
